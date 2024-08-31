@@ -12,4 +12,7 @@ module Functions where
   sumSquares x y = x ^ 2 + y ^ 2
 
   rock'n'roll = 42
-   
+  
+  -- условные выражения
+  function3 x = if x > 0 then 1 else (-1)
+  function4 x = (if x > 0 then 1 else (-1)) + 3
