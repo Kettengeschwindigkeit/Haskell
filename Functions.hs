@@ -8,4 +8,8 @@ module Functions where
   
   function1 = 3 + sin 42
   function2 = 3 + (max 5) 42
-  
+
+  sumSquares x y = x ^ 2 + y ^ 2
+
+  rock'n'roll = 42
+   
