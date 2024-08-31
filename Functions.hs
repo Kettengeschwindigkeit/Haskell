@@ -6,3 +6,6 @@ module Functions where
   -- аналогично (операция применения функции ассоциативна влево)
   getMax1 = (max 5) 42
   
+  function1 = 3 + sin 42
+  function2 = 3 + (max 5) 42
+  
